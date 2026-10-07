@@ -1,0 +1,25 @@
+# Segredos e credenciais (NUNCA versionar)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Backups e dumps do banco do Fleetbase (contêm dados da conta e chaves de API)
+*.sql
+backup_*
+
+# Ambiente virtual e caches do Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos gerados pelos scripts
+seed_output.json
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+kb_state.json
